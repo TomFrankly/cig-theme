@@ -20,8 +20,6 @@ area - http://volatylthemes.com/members/ - for the latest version before buildin
 though, as skeletons will be updated along with the framework if necessary.
 */
 
-// Test my niggaaaaaa
-
 /* General elements */
 body,  
 input, 
@@ -257,6 +255,10 @@ body {
 }
 .landing #footer-area .site-footer {
 	padding: 1em 3em 2em;
+}
+
+.wp-caption img {
+	max-width: 100%;
 }
 
 /* formatting */
