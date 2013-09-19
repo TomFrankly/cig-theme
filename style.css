@@ -1,0 +1,549 @@
+/*
+	Theme Name: College Info Geek
+	Theme URI: http://collegeinfogeek.com
+	Author: Thomas Frank and Martin Boehme
+	Author URI: http://collegeinfogeek.com
+	Description: Responsive Theme for CIG
+	Template: volatyl
+	Version: 1.0
+*/
+
+/*
+Remember that this stylesheet is 100% yours to do whatever you'd like with.
+Child theme skeletons are NOT like the Volatyl Framework in that you should
+not edit them. Child theme skeletons are simply starting points based on
+different types of website configurations.
+*
+This skeleton CSS can be used as is, modified, or even deleted (that's silly).
+It's yours. Use it on as many websites as you'd like. Always check the members
+area - http://volatylthemes.com/members/ - for the latest version before building,
+though, as skeletons will be updated along with the framework if necessary.
+*/
+
+/* General elements */
+body,  
+input, 
+textarea,
+.cancel-reply,
+.site-description {
+	font-family: 'Open Sans', sans-serif; 
+}
+body { 
+	background: #f8f8f8; 
+}
+.one-col .main, 
+.two-col .main { 
+	width: 1140px; 
+}
+.three-col .main { 
+	width: 1440px; 
+}
+.scs #wrap { 
+	background: #f1f1f1;
+	width: 1040px; 
+}
+.inner { 
+	padding: .66667em 2em; 
+}
+
+/* Main styles */
+#header-area, 
+.site-footer, 
+.site-description, 
+.default-widget, 
+.squeeze #main-content,
+#fat-footer .default-widget { 
+	background: none; 
+	border: none; 
+}
+#main-content, 
+.scs #wrap, 
+#main-content #content, 
+#main-content .main, 
+.css #main-content #sidebars.sidebar-1, 
+.ssc #main-content #sidebars.sidebar-2, 
+.landing #main-content .main #content, 
+.squeeze #main-content .main #content,
+#menu-area-standard,
+#menu-area-footer {
+	border: 1px solid #d8d8d8;
+}
+.site-header {
+	padding: 2em 3em 3em 5em;
+}
+.sc .site-header,
+.ssc .site-header {
+	padding-left: 3em;
+}
+.scs .site-header {
+	padding-left: 2em;
+}
+.site-title {
+	margin: 0;
+}
+.header-menu-wrap {
+	position: absolute;
+	top: 2.5em;
+	right: 1em;
+}
+.one-col .header-menu-wrap,
+.sc .header-menu-wrap {
+	right: 3em;
+}
+.cs .header-menu-wrap {
+	right: 2em;
+}
+.three-col .menu a {
+	font-size: 18px;
+}
+#menu-area-standard {
+	border-width: 1px 0 0;
+	padding-bottom: 1em;
+}
+#menu-area-footer {
+	border-width: 0 0 1px;
+}
+.scs .full-menu {
+	padding-left: 1.33334em;
+}
+.sc .full-menu,
+.ssc .full-menu {
+	padding-left: 2.33334em;
+}
+.one-col .full-menu,
+.cs .full-menu,
+.css .full-menu {
+	padding-left: 4.33334em;
+}
+.one-col #main-content .main,
+.landing #main-content .main,
+.squeeze #main-content .main {
+	border: 0;
+}
+.cs #main-content .main,
+.scs #main-content .main,
+.css #main-content .main,
+.css #main-content #sidebars.sidebar-1,
+.ssc #main-content #sidebars.sidebar-1 {
+	border-width: 0 1px 0 0;
+}
+.sc #main-content .main,
+.ssc #main-content .main,
+.ssc #main-content #sidebars.sidebar-2 {
+	border-width: 0 0 0 1px;
+}
+#main-content,
+.default-widget {
+	padding: 0;
+}
+#main-content,
+#main-content #content {
+	background: #fff;
+}
+#main-content {
+	border-width: 1px 0;
+}
+#main-content #content {
+	padding-top: 3em;
+	margin-top: -60px;
+}
+.one-col #main-content #content,
+.two-col #main-content #content,
+.css #main-content #content,
+.ssc #main-content #content {
+	padding: 45px 75px;
+	margin-top: -15px;
+	margin-bottom: -1px;
+}
+.scs #main-content #content,
+.css #content,
+.ssc #main-content #sidebars.sidebar-2 {
+	margin-right: -1px;
+}
+.scs #main-content #sidebars {
+	padding-top: 0;
+}
+.c2 #main-content #sidebars.sidebar-1,
+.c2 #main-content #sidebars.sidebar-2,
+.two-col #main-content #sidebars.sidebar-1,
+.css #main-content #sidebars.sidebar-1,
+.css #main-content .main #sidebars.sidebar-2,
+.ssc #main-content #sidebars.sidebar-1,
+.ssc #main-content .main #sidebars.sidebar-2,
+.landing #header-area .site-header {
+	padding: 3em;
+}
+.c2 #main-content #sidebars.sidebar-1,
+.c2 #main-content #sidebars.sidebar-2 {
+	padding-right: 5em;
+}
+.c2 #main-content #sidebars.sidebar-1,
+.c2 #main-content #sidebars.sidebar-2 {
+	padding-left: 5em;
+}
+.two-col #main-content #sidebars.sidebar-1 {
+	width: 375px;
+}
+.scs #wrap {
+	border-width: 0 1px 1px;
+	padding: 45px 0 0 30px;
+	margin-left: -2em;
+	margin-bottom: -1px;
+}
+.two-col #content,
+.three-col #content {
+	padding: 5em;
+	margin-bottom: 2em;
+	width: 764px;
+}
+.css #content,
+.ssc #content {
+	width: 734px;
+}
+.scs .sidebar-1 {
+	padding: 30px;
+	width: 253px;
+}
+.css #main-content #sidebars.sidebar-1,
+.ssc #main-content #sidebars.sidebar-1,
+.three-col #main-content #sidebars.sidebar-2 {
+	width: 353px;
+}
+.three-col #main-content #sidebars.sidebar-2 {
+	padding: 45px 45px 30px 5px;
+}
+.one-col .site-footer {
+	padding: 2em 5em;
+}
+.cs .site-footer,
+.css .site-footer {
+	padding: 2em 3em 2em 5em;
+}
+.sc .site-footer,
+.ssc .site-footer {
+	padding: 2em 5em 2em 3em;
+}
+.scs .site-footer {
+	padding: 1em 3em 2em 2em;
+}
+
+/* Custom templates */
+.landing #header-area .site-header {
+	padding-top: 2em;
+}
+.scs.landing #main-content #content {
+	padding-bottom: 3em;
+	margin-top: -15px;
+}
+.landing #main-content .main,
+.landing #main-content .main #content,
+.squeeze #main-content #content {
+	border-bottom: 0;
+}
+.landing #main-content .main,
+.landing #main-content .main #content,
+.squeeze #main-content #content {
+	margin-bottom: 0;
+}
+.landing #main-content .main,
+.landing #main-content .main #content {
+	width: 764px;
+}
+.squeeze #main-content .main #content {
+	margin-top: -2px;
+	width: 100%;
+}
+.landing #footer-area .site-footer {
+	padding: 1em 3em 2em;
+}
+
+/* formatting */
+@font-face { /* wp-content/themes/vibrant/fonts/ */
+    font-family: 'PatuaOneRegular';
+    src: url('fonts/patua/PatuaOne-Regular-webfont.eot');
+    src: url('fonts/patua/PatuaOne-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/patua/PatuaOne-Regular-webfont.woff') format('woff'),
+         url('fonts/patua/PatuaOne-Regular-webfont.ttf') format('truetype'),
+         url('fonts/patua/PatuaOne-Regular-webfont.svg#PatuaOneRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, .site-title {
+	font-family: 'PatuaOneRegular';
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1440px)
+{
+	.three-col .main,
+	.three-col #main-content {
+		position: relative;
+		width: 100%;
+	}
+	.css #main-content .main #content {
+		margin-left: -1px;
+	}
+	.ssc #main-content .main {
+		border-left: 0;
+	}
+	.css #main-content .main,
+	.scs #main-content .main,
+	.ssc #main-content #content {
+		border-right: 0;
+	}
+	.landing.ssc #main-content .main #content {
+		border-width: 1px 1px 0 1px;
+	}
+	.landing #main-content .main #content,
+	.squeeze #main-content .main #content {
+		padding: 3em 5em;
+	}
+	.scs #wrap {
+		margin-right: -353px;
+		width: 70%;
+	}
+	.css #main-content #content,
+	.ssc #main-content #content {
+		width: 50%;
+	}
+	.scs #content {
+		padding: 0 4em;
+		margin-left: -253px;
+		width: 73%;
+	}
+	.squeeze #main-content .main #content {
+		margin-top: -1px;
+	}
+	.css #main-content #sidebars.sidebar-1,
+	.ssc #main-content #sidebars.sidebar-1,
+	.css #main-content #sidebars.sidebar-2,
+	.ssc #main-content #sidebars.sidebar-2 {
+		width: 25%;
+	}
+	.scs #main-content #sidebars.sidebar-2 {
+		position: static;
+		float: right;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 1280px)
+{
+	.css #header-area .site-header {
+		padding: 2em 3em 3em;
+	}
+	.ssc #header-area .site-header {
+		padding-left: 2em;
+	}
+	.scs #wrap,
+	.scs #content {
+		width: 65%;
+	}
+	.css #main-content #content,
+	.ssc #main-content #content {
+		padding: 3em;
+	}
+	.scs #content {
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+	}
+	.css #main-content #sidebars.sidebar-1,
+	.ssc #main-content #sidebars.sidebar-1,
+	.css #main-content #sidebars.sidebar-2,
+	.ssc #main-content #sidebars.sidebar-2 {
+		padding: 3em 2em;
+	}
+	.scs .sidebar-1 {
+		width: 35%;
+	}
+	.scs #main-content #sidebars.sidebar-2 {
+		width: 32%;
+	}
+	.css .full-menu {
+		padding-left: 2.33334em;
+	}
+	.css .site-footer {
+		padding: 2em 3em;
+	}
+	.ssc .site-footer {
+		padding: 2em 3em;
+	}
+}
+
+@media screen and (max-width: 1140px)
+{
+	.one-col .main,
+	.two-col .main,
+	.one-col #main-content,
+	.two-col #main-content,
+	.one-col #main-content #content {
+		position: relative;
+		width: 100%;
+	}
+	.two-col #main-content .main {
+		border: 0;
+	}
+	.one-col #main-content #content {
+		border-width: 1px 0;
+	}
+	.two-col #main-content #content {
+		margin-right: 0;
+		width: 67%;
+	}
+	.cs #main-content #content {
+		border-width: 1px 1px 1px 0;
+	}
+	.sc #main-content #content {
+		border-width: 1px 0 1px 1px;
+	}
+	.landing #main-content .main #content {
+		border-width: 1px;
+	}
+	.cs #main-content #sidebars.sidebar-1,
+	.sc #main-content #sidebars.sidebar-1 {
+		width: 33%;
+	}
+	#sidebars input[type="text"] {
+		margin-right: 0;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1024px)
+{
+	.three-col .menu a {
+		font-size: 15px;
+	}
+	.scs #main-content #wrap {
+		border-width: 0 1px 1px 0;
+		padding-top: 0;
+		margin-top: -15px;
+	}
+	.scs #main-content #content {
+		border-width: 1px 0;
+		margin-top: 0;
+	}
+	.scs #content,
+	.scs .sidebar-1 {
+		float: none;
+		margin: 0;
+		width: 100%;
+	}
+	.scs #main-content #content {
+		padding: 2em;
+	}
+	.scs #main-content #sidebars.sidebar-1 {
+		padding-top: 3em;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 850px)
+{
+	.squeeze #main-content .main #content {
+		padding: 3em;
+		border-width: 1px 0;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+	.one-col #header-area .site-header,
+	.two-col #header-area .site-header,
+	.three-col #header-area .site-header,
+	.one-col .site-footer,
+	.two-col .site-footer {
+		padding: 2em 3em;
+	}
+	.scs #wrap,
+	.two-col #main-content #content,
+	.three-col #main-content #content,
+	.two-col #main-content #sidebars.sidebar-1,
+	.three-col #main-content #sidebars.sidebar-1,
+	.css #main-content #sidebars.sidebar-2,
+	.ssc #main-content #sidebars.sidebar-2,
+	.landing #main-content .main, 
+	.landing #main-content .main #content {
+		float: none;
+		margin: 0;
+		width: 100%;
+	}
+	.one-col .full-menu,
+	.cs .full-menu,
+	.three-col .full-menu {
+		padding-left: 0;
+	}
+	.two-col #main-content #content,
+	.css #main-content #content,
+	.ssc #main-content #content {
+		border-width: 1px 0;
+	}
+	.landing.ssc #main-content .main #content {
+		border-width: 1px 0 0;
+	}
+	.landing.cs #main-content .main #content,
+	.landing.sc #main-content .main #content,
+	.landing.css #main-content .main #content {
+		border-top-width: 1px;
+	}
+	.scs #main-content #wrap {
+		padding: 0;
+	}
+	.css #main-content,
+	.ssc #main-content,
+	.two-col #main-content,
+	.two-col #main-content .main,
+	.scs #main-content #wrap,
+	.landing #main-content .main #content {
+		border-width: 0 0 1px;
+	}
+	.one-col #main-content #content,
+	.c2 #main-content #sidebars.sidebar-1,
+	.c2 #main-content #sidebars.sidebar-2,
+	.two-col #main-content #content,
+	.scs #main-content #content,
+	.three-col #main-content #sidebars.sidebar-1,
+	.three-col #main-content #sidebars.sidebar-2 ,
+	.landing #main-content .main #content {
+		padding: 3em;
+	}
+	.scs #content,
+	.scs .site-footer {
+		padding: 2em;
+	}
+	.scs #main-content #sidebars.sidebar-2 {
+		width: 100%;
+		padding: 2em;
+	}
+	.c2 #main-content #sidebars.sidebar-1,
+	.three-col #main-content #sidebars.sidebar-1 {
+		padding-bottom: 1.5em;
+	}
+	.c2 #main-content #sidebars.sidebar-2,
+	.three-col #main-content #sidebars.sidebar-2 {
+		padding-top: 1.5em;
+	}
+	.css #main-content #sidebars.sidebar-1,
+	.ssc #main-content #sidebars.sidebar-2 {
+		border: 0;
+	}
+}
+
+@media screen and (max-width: 480px)
+{
+	h1, h2 {
+		font-size: 1.4em;
+	}
+	.site-title {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 320px)
+{
+	.site-title {
+    		font-size: 1.66667em;
+	}
+}
