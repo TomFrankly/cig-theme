@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6, .site-title {
 	}
 	.two-col #main-content #content {
 		margin-right: 0;
-		width: 67%;
+		width: 69.5%;
 	}
 	.cs #main-content #content {
 		border-width: 1px 1px 1px 0;
@@ -544,6 +544,10 @@ h1, h2, h3, h4, h5, h6, .site-title {
 	.css #main-content #sidebars.sidebar-1,
 	.ssc #main-content #sidebars.sidebar-2 {
 		border: 0;
+	}
+
+	#twitterwidget, #facebookcomments, #floatingfooterbar {
+		display: none;
 	}
 }
 
